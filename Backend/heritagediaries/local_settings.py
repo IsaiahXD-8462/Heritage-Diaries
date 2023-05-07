@@ -1,6 +1,9 @@
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-2e-e!_pnj_98@vli9*$dmoiwh8!2el1k!4ux06_e45!ux*0328'
 
+# Database
+# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+
 DATABASES = {
     'default': {
         'ENGINE': 'mysql.connector.django',
