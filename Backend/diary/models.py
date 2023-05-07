@@ -6,6 +6,7 @@ class Diary(models.Model):
     first_name = models.CharField(max_length=255)
     middle_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
+    date_of_birth = models.DateField()
     hair_color = models.CharField(max_length=255)
     eye_color = models.CharField(max_length=255)
     height = models.IntegerField()
