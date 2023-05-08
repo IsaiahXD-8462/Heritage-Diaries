@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'authentication.apps.AuthenticationConfig',
     'corsheaders',
+    'diary',
+    'DNA',
+    'medical',
+    'story',
 ]
 
 MIDDLEWARE = [
